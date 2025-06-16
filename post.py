@@ -18,14 +18,6 @@ def save_data(data):
     with open("patients.json", "w") as f:
          json.dump(data, f)
 
-    
-
-
-
-
-
-
-
 
 app = FastAPI()
 
